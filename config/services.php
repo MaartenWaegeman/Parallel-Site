@@ -34,5 +34,7 @@ return [
         'key' => env('STRIPE_KEY'),
         'secret' => env('STRIPE_SECRET'),
     ],
-
+    'blizzard' => [
+        'key' => env('BLIZZARD_API_KEY'),
+    ],
 ];
