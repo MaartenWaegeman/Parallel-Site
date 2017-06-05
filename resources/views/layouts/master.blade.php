@@ -23,18 +23,9 @@
 		<header>
 			<h1>Parallel Guild<small>EU Silvermoon</small></h1>
 		</header>
-		<nav>
-			<ul>
-				<li><a href="{{url('/progress')}}">Progress</a></li>
-				<li><a href="{{url('/news')}}">News</a></li>
-				<li><a href="{{url('/media')}}">Media</a></li>
-				<li><a href="{{url('/applications/create')}}">Apply</a></li>
-				<li><a href="{{url('/applications')}}">Applications</a></li>
-				<li><a href="{{url('/audit')}}">Guild Audit</a></li>
-				<li><a href="http://www.parallelguild.com/forum">Forum</a></li>
-				<li><a href="https://www.warcraftlogs.com/guilds/16639">Logs</a></li>
-			</ul>
-		</nav>
+
+		@include('layouts.nav')
+		
 		<div class="container" style="border:1px solid black">
 			@yield('content')
 		</div>
