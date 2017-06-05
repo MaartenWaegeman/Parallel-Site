@@ -1,0 +1,142 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,900,400italic);
+html,
+body {
+  min-height: 100%;
+}
+body {
+  color: #333333;
+  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.25) 100%);
+}
+@font-face {
+  font-style: normal;
+  font-family: 'American Captain';
+  src: url('../fonts/American Captain.eot');
+  src: local('☺'), url('../fonts/American Captain.woff') format('woff'), url('../fonts/American Captain.ttf') format('truetype'), url('../fonts/American Captain.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+  color: #336699;
+  font-size: 85px;
+  font-family: American Captain;
+  text-align: center;
+  margin-bottom: 15px;
+}
+h1 small {
+  display: block;
+  color: #0677B0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: American Captain;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+/* Class colours */
+.death-knight {
+  color: #C41F3B;
+}
+.druid {
+  color: #FF7D0A;
+}
+.hunter {
+  color: #ABD473;
+}
+.mage {
+  color: #69CCF0;
+}
+.monk {
+  color: #00FF96;
+}
+.paladin {
+  color: #F58CBA;
+}
+.priest {
+  color: #FFFFFF;
+}
+.rogue {
+  color: #FFF569;
+}
+.shaman {
+  color: #0070DE;
+}
+.warlock {
+  color: #9482C9;
+}
+.warrior {
+  color: #C79C6E;
+}
+.alliance {
+  color: #0078FF;
+}
+.horde {
+  color: #EE1919;
+}
+th {
+  text-align: center;
+}
+.test {
+  float: left;
+  margin: 5px;
+  border: 1px solid black;
+}
+#splash {
+  bottom: 50%;
+  left: 0;
+  right: 0;
+  position: absolute;
+  text-align: center;
+}
+#splash2 {
+  top: 50%;
+  left: 0;
+  right: 0;
+  position: absolute;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+footer {
+  bottom: 0%;
+  left: 0;
+  right: 0;
+  position: absolute;
+  text-align: center;
+}
+.container {
+  background-color: white;
+}
+*::-moz-selection {
+  background: #336699;
+  color: white;
+}
+*::selection {
+  background: #336699;
+  color: white;
+}
+ul {
+  text-align: center;
+}
+li {
+  display: inline;
+  margin: 0 30px;
+}
+img {
+  border-radius: 100px;
+  border: 3px solid #336699;
+}
+.inactive {
+  opacity: 0.5;
+}
+textarea.form-control{
+  resize:none;
+  height: 100px;
+}
